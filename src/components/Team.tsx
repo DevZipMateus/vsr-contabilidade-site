@@ -25,7 +25,6 @@ const Team = () => {
                     alt="Valter Soares Ribeiro - Contador"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent md:bg-gradient-to-r" />
                 </div>
 
                 <div className="md:col-span-3 p-8 md:p-10">
