@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, GraduationCap, Briefcase } from "lucide-react";
-import contadorImg from "@/assets/contador.jpg";
+import valterFoto from "@/assets/valter-foto.jpg";
 
 const Team = () => {
   return (
@@ -21,7 +21,7 @@ const Team = () => {
               <div className="grid md:grid-cols-5 gap-0">
                 <div className="md:col-span-2 relative h-64 md:h-auto">
                   <img
-                    src={contadorImg}
+                    src={valterFoto}
                     alt="Valter Soares Ribeiro - Contador"
                     className="w-full h-full object-cover"
                   />
