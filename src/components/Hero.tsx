@@ -34,11 +34,11 @@ const Hero = () => {
               <img src={vsrLogo} alt="VSR - CONTABILIDADE" className="h-48 md:h-64 lg:h-80 xl:h-96 w-auto max-w-full" />
             </div>
           
-            <h2 className="text-xl md:text-2xl lg:text-3xl text-black mb-6 md:mb-8 font-light text-center">
+            <h2 className="text-xl md:text-2xl lg:text-3xl text-white mb-6 md:mb-8 font-light text-center">
               Parceiro contábil e financeiro com mais de 40 anos de experiência
             </h2>
 
-            <p className="text-base md:text-lg lg:text-xl text-black mb-8 md:mb-12 max-w-2xl leading-relaxed text-center mx-auto px-4">
+            <p className="text-base md:text-lg lg:text-xl text-white mb-8 md:mb-12 max-w-2xl leading-relaxed text-center mx-auto px-4">
               Garantindo o retorno com segurança e tranquilidade do seu empreendimento através de transparência, ética e comprometimento.
             </p>
 
@@ -64,18 +64,18 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
               <Shield className="h-8 w-8 md:h-10 md:w-10 text-accent mb-3 md:mb-4 mx-auto md:mx-0" />
-              <h3 className="text-black font-semibold text-base md:text-lg mb-2 text-center md:text-left">40+ anos</h3>
-              <p className="text-black text-xs md:text-sm text-center md:text-left">De experiência no mercado contábil</p>
+              <h3 className="text-white font-semibold text-base md:text-lg mb-2 text-center md:text-left">40+ anos</h3>
+              <p className="text-white/90 text-xs md:text-sm text-center md:text-left">De experiência no mercado contábil</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
               <TrendingUp className="h-8 w-8 md:h-10 md:w-10 text-accent mb-3 md:mb-4 mx-auto md:mx-0" />
-              <h3 className="text-black font-semibold text-base md:text-lg mb-2 text-center md:text-left">Resultados reais</h3>
-              <p className="text-black text-xs md:text-sm text-center md:text-left">Soluções comprovadas e consistentes</p>
+              <h3 className="text-white font-semibold text-base md:text-lg mb-2 text-center md:text-left">Resultados reais</h3>
+              <p className="text-white/90 text-xs md:text-sm text-center md:text-left">Soluções comprovadas e consistentes</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
               <Users className="h-8 w-8 md:h-10 md:w-10 text-accent mb-3 md:mb-4 mx-auto md:mx-0" />
-              <h3 className="text-black font-semibold text-base md:text-lg mb-2 text-center md:text-left">Atendimento dedicado</h3>
-              <p className="text-black text-xs md:text-sm text-center md:text-left">Compromisso de dono do negócio</p>
+              <h3 className="text-white font-semibold text-base md:text-lg mb-2 text-center md:text-left">Atendimento dedicado</h3>
+              <p className="text-white/90 text-xs md:text-sm text-center md:text-left">Compromisso de dono do negócio</p>
             </div>
           </div>
           </div>
