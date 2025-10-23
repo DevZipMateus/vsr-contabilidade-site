@@ -33,15 +33,15 @@ const Hero = () => {
             <img src={vsrLogo} alt="VSR - CONTABILIDADE" className="h-64 md:h-80 lg:h-96 w-auto" />
           </div>
           
-          <h2 className="text-2xl md:text-3xl text-white/90 mb-8 font-light">
+          <h2 className="text-2xl md:text-3xl text-white/90 mb-8 font-light text-center">
             Parceiro contábil e financeiro com mais de 40 anos de experiência
           </h2>
 
-          <p className="text-lg md:text-xl text-white/80 mb-12 max-w-2xl leading-relaxed">
+          <p className="text-lg md:text-xl text-white/80 mb-12 max-w-2xl leading-relaxed text-center mx-auto">
             Garantindo o retorno com segurança e tranquilidade do seu empreendimento através de transparência, ética e comprometimento.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 mb-16 justify-center">
             <a href="https://wa.me/5538991187421" target="_blank" rel="noopener noreferrer">
               <Button
                 size="lg"
