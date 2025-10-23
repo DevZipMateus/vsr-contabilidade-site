@@ -27,22 +27,22 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/50" />
       </div>
 
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl animate-fade-in mx-auto">
-          <div className="bg-white/30 backdrop-blur-md rounded-2xl p-8 md:p-12 mb-12">
-            <div className="mb-8 flex justify-center">
-              <img src={vsrLogo} alt="VSR - CONTABILIDADE" className="h-80 md:h-[28rem] lg:h-[32rem] w-auto" />
+      <div className="container mx-auto px-4 relative z-10 flex items-center justify-center min-h-[calc(100vh-5rem)]">
+        <div className="max-w-4xl animate-fade-in mx-auto w-full">
+          <div className="bg-white/30 backdrop-blur-md rounded-2xl p-6 md:p-10 lg:p-12">
+            <div className="mb-6 md:mb-8 flex justify-center">
+              <img src={vsrLogo} alt="VSR - CONTABILIDADE" className="h-48 md:h-64 lg:h-80 xl:h-96 w-auto max-w-full" />
             </div>
           
-            <h2 className="text-2xl md:text-3xl text-black mb-8 font-light text-center">
+            <h2 className="text-xl md:text-2xl lg:text-3xl text-black mb-6 md:mb-8 font-light text-center">
               Parceiro contábil e financeiro com mais de 40 anos de experiência
             </h2>
 
-            <p className="text-lg md:text-xl text-black mb-12 max-w-2xl leading-relaxed text-center mx-auto">
+            <p className="text-base md:text-lg lg:text-xl text-black mb-8 md:mb-12 max-w-2xl leading-relaxed text-center mx-auto px-4">
               Garantindo o retorno com segurança e tranquilidade do seu empreendimento através de transparência, ética e comprometimento.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center items-center">
             <a href="https://wa.me/5538991187421" target="_blank" rel="noopener noreferrer">
               <Button
                 size="lg"
@@ -60,24 +60,24 @@ const Hero = () => {
               Saiba mais
             </Button>
           </div>
-        </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-              <Shield className="h-10 w-10 text-accent mb-4" />
-              <h3 className="text-black font-semibold text-lg mb-2">40+ anos</h3>
-              <p className="text-black text-sm">De experiência no mercado contábil</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
+              <Shield className="h-8 w-8 md:h-10 md:w-10 text-accent mb-3 md:mb-4 mx-auto md:mx-0" />
+              <h3 className="text-black font-semibold text-base md:text-lg mb-2 text-center md:text-left">40+ anos</h3>
+              <p className="text-black text-xs md:text-sm text-center md:text-left">De experiência no mercado contábil</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-              <TrendingUp className="h-10 w-10 text-accent mb-4" />
-              <h3 className="text-black font-semibold text-lg mb-2">Resultados reais</h3>
-              <p className="text-black text-sm">Soluções comprovadas e consistentes</p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
+              <TrendingUp className="h-8 w-8 md:h-10 md:w-10 text-accent mb-3 md:mb-4 mx-auto md:mx-0" />
+              <h3 className="text-black font-semibold text-base md:text-lg mb-2 text-center md:text-left">Resultados reais</h3>
+              <p className="text-black text-xs md:text-sm text-center md:text-left">Soluções comprovadas e consistentes</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-              <Users className="h-10 w-10 text-accent mb-4" />
-              <h3 className="text-black font-semibold text-lg mb-2">Atendimento dedicado</h3>
-              <p className="text-black text-sm">Compromisso de dono do negócio</p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
+              <Users className="h-8 w-8 md:h-10 md:w-10 text-accent mb-3 md:mb-4 mx-auto md:mx-0" />
+              <h3 className="text-black font-semibold text-base md:text-lg mb-2 text-center md:text-left">Atendimento dedicado</h3>
+              <p className="text-black text-xs md:text-sm text-center md:text-left">Compromisso de dono do negócio</p>
             </div>
+          </div>
           </div>
         </div>
       </div>
