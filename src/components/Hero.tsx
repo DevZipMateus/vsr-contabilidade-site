@@ -33,11 +33,11 @@ const Hero = () => {
             <img src={vsrLogo} alt="VSR - CONTABILIDADE" className="h-80 md:h-[28rem] lg:h-[32rem] w-auto" />
           </div>
           
-          <h2 className="text-2xl md:text-3xl text-white/90 mb-8 font-light text-center">
+          <h2 className="text-2xl md:text-3xl text-black mb-8 font-light text-center">
             Parceiro contábil e financeiro com mais de 40 anos de experiência
           </h2>
 
-          <p className="text-lg md:text-xl text-white/80 mb-12 max-w-2xl leading-relaxed text-center mx-auto">
+          <p className="text-lg md:text-xl text-black mb-12 max-w-2xl leading-relaxed text-center mx-auto">
             Garantindo o retorno com segurança e tranquilidade do seu empreendimento através de transparência, ética e comprometimento.
           </p>
 
@@ -63,18 +63,18 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
               <Shield className="h-10 w-10 text-accent mb-4" />
-              <h3 className="text-white font-semibold text-lg mb-2">40+ anos</h3>
-              <p className="text-white/80 text-sm">De experiência no mercado contábil</p>
+              <h3 className="text-black font-semibold text-lg mb-2">40+ anos</h3>
+              <p className="text-black text-sm">De experiência no mercado contábil</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
               <TrendingUp className="h-10 w-10 text-accent mb-4" />
-              <h3 className="text-white font-semibold text-lg mb-2">Resultados reais</h3>
-              <p className="text-white/80 text-sm">Soluções comprovadas e consistentes</p>
+              <h3 className="text-black font-semibold text-lg mb-2">Resultados reais</h3>
+              <p className="text-black text-sm">Soluções comprovadas e consistentes</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
               <Users className="h-10 w-10 text-accent mb-4" />
-              <h3 className="text-white font-semibold text-lg mb-2">Atendimento dedicado</h3>
-              <p className="text-white/80 text-sm">Compromisso de dono do negócio</p>
+              <h3 className="text-black font-semibold text-lg mb-2">Atendimento dedicado</h3>
+              <p className="text-black text-sm">Compromisso de dono do negócio</p>
             </div>
           </div>
         </div>
