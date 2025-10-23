@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl animate-fade-in">
           <div className="mb-8 flex justify-center">
-            <img src={vsrLogo} alt="VSR - CONTABILIDADE" className="h-64 md:h-80 lg:h-96 w-auto" />
+            <img src={vsrLogo} alt="VSR - CONTABILIDADE" className="h-80 md:h-[28rem] lg:h-[32rem] w-auto" />
           </div>
           
           <h2 className="text-2xl md:text-3xl text-white/90 mb-8 font-light text-center">
