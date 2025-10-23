@@ -4,7 +4,7 @@ import valterFoto from "@/assets/valter-foto.jpg";
 
 const Team = () => {
   return (
-    <section id="equipe" className="py-24 bg-background">
+    <section id="equipe" className="py-16 md:py-20 lg:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
@@ -19,20 +19,20 @@ const Team = () => {
           <Card className="overflow-hidden shadow-xl border-2 border-primary/10 animate-scale-in">
             <CardContent className="p-0">
               <div className="grid md:grid-cols-5 gap-0">
-                <div className="md:col-span-2 relative h-64 md:h-auto">
+                <div className="md:col-span-2 relative h-56 sm:h-64 md:h-auto">
                   <img
                     src={valterFoto}
                     alt="Valter Soares Ribeiro - Contador"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center"
                   />
                 </div>
 
-                <div className="md:col-span-3 p-8 md:p-10">
-                  <div className="mb-6">
-                    <h3 className="text-3xl font-bold text-primary mb-2">
+                <div className="md:col-span-3 p-6 sm:p-8 md:p-10">
+                  <div className="mb-4 md:mb-6">
+                    <h3 className="text-2xl md:text-3xl font-bold text-primary mb-2">
                       Valter Soares Ribeiro
                     </h3>
-                    <p className="text-xl text-accent font-semibold">Contador responsável</p>
+                    <p className="text-lg md:text-xl text-accent font-semibold">Contador responsável</p>
                   </div>
 
                   <div className="space-y-6">

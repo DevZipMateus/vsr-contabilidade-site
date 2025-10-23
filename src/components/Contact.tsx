@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Clock, Facebook, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contato" className="py-24 bg-secondary/30">
+    <section id="contato" className="py-16 md:py-20 lg:py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
@@ -15,10 +15,10 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6 md:gap-8">
           <Card className="shadow-lg animate-fade-in-up">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-primary mb-6">Informações de contato</h3>
+            <CardContent className="p-6 md:p-8">
+              <h3 className="text-xl md:text-2xl font-bold text-primary mb-4 md:mb-6">Informações de contato</h3>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -84,8 +84,8 @@ const Contact = () => {
           </Card>
 
           <Card className="shadow-lg animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-primary mb-6">Redes sociais</h3>
+            <CardContent className="p-6 md:p-8">
+              <h3 className="text-xl md:text-2xl font-bold text-primary mb-4 md:mb-6">Redes sociais</h3>
               
               <div className="space-y-6 mb-8">
                 <a

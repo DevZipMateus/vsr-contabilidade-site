@@ -2,18 +2,18 @@ import { Target, Compass, Heart } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="sobre" className="py-24 bg-secondary/30">
+    <section id="sobre" className="py-16 md:py-20 lg:py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+        <div className="text-center mb-12 md:mb-16 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-3 md:mb-4">
             Sobre nós
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             Conheça nossos valores e compromissos com o seu sucesso
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
           <div className="bg-card rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow animate-fade-in-up border border-border">
             <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
               <Target className="h-8 w-8 text-primary" />

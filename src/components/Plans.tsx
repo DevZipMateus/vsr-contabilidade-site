@@ -4,7 +4,7 @@ import { CheckCircle2 } from "lucide-react";
 
 const Plans = () => {
   return (
-    <section id="planos" className="py-24 bg-secondary/30">
+    <section id="planos" className="py-16 md:py-20 lg:py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
@@ -17,17 +17,17 @@ const Plans = () => {
 
         <div className="max-w-4xl mx-auto">
           <Card className="border-2 border-primary/20 shadow-2xl animate-scale-in">
-            <CardHeader className="text-center pb-8 pt-8">
-              <div className="mx-auto bg-gradient-to-br from-primary to-accent w-20 h-20 rounded-2xl flex items-center justify-center mb-4">
-                <CheckCircle2 className="h-10 w-10 text-white" />
+            <CardHeader className="text-center pb-6 md:pb-8 pt-6 md:pt-8 px-4 md:px-6">
+              <div className="mx-auto bg-gradient-to-br from-primary to-accent w-16 h-16 md:w-20 md:h-20 rounded-2xl flex items-center justify-center mb-3 md:mb-4">
+                <CheckCircle2 className="h-8 w-8 md:h-10 md:w-10 text-white" />
               </div>
-              <CardTitle className="text-3xl mb-2">Assessoria + Consultoria + Sistema de Gestão (ERP)</CardTitle>
-              <CardDescription className="text-lg">
+              <CardTitle className="text-xl md:text-2xl lg:text-3xl mb-2">Assessoria + Consultoria + Sistema de Gestão (ERP)</CardTitle>
+              <CardDescription className="text-base md:text-lg">
                 Pacote completo para empresas que buscam excelência em gestão
               </CardDescription>
             </CardHeader>
-            <CardContent className="px-8 pb-8">
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <CardContent className="px-4 md:px-6 lg:px-8 pb-6 md:pb-8">
+              <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-6 md:mb-8">
                 <div>
                   <h3 className="font-semibold text-lg text-primary mb-4 flex items-center gap-2">
                     <CheckCircle2 className="h-5 w-5 text-accent" />
