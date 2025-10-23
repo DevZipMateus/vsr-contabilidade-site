@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, TrendingUp, Users } from "lucide-react";
 import heroBg from "@/assets/hero-bg-new.jpg";
+import vsrLogo from "@/assets/vsr-logo.png";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -28,9 +29,9 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            VSR - CONTABILIDADE
-          </h1>
+          <div className="mb-6">
+            <img src={vsrLogo} alt="VSR - CONTABILIDADE" className="h-32 md:h-40 w-auto" />
+          </div>
           
           <h2 className="text-2xl md:text-3xl text-white/90 mb-8 font-light">
             Parceiro contábil e financeiro com mais de 40 anos de experiência
