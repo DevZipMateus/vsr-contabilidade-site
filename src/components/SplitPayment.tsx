@@ -90,15 +90,23 @@ const SplitPayment = () => {
                 </ul>
               </div>
 
-              <div className="text-center space-y-4">
-                <a href="/Guia_Reforma_Tributaria_VSR_Contabilidade.pptx" download>
-                  <Button size="lg" className="bg-accent hover:bg-accent/90 text-lg px-8 py-6 gap-3">
-                    <Download className="h-5 w-5" />
-                    Baixar Guia Completo
-                  </Button>
-                </a>
+              <div className="text-center space-y-6">
+                <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                  <a href="/Apresentacao_Split_Payment.pptx" download className="block">
+                    <Button size="lg" className="bg-accent hover:bg-accent/90 text-base md:text-lg px-6 py-6 gap-3 w-full">
+                      <Download className="h-5 w-5" />
+                      Apresentação Split Payment
+                    </Button>
+                  </a>
+                  <a href="/Guia_Reforma_Tributaria_VSR_Contabilidade.pptx" download className="block">
+                    <Button size="lg" className="bg-primary hover:bg-primary/90 text-base md:text-lg px-6 py-6 gap-3 w-full">
+                      <Download className="h-5 w-5" />
+                      Guia Reforma Tributária
+                    </Button>
+                  </a>
+                </div>
                 <p className="text-sm text-muted-foreground">
-                  Guia completo sobre Reforma Tributária e Split Payment
+                  Baixe nossos materiais completos sobre Split Payment e Reforma Tributária
                 </p>
                 <div className="pt-4">
                   <a href="https://wa.me/5538991187421" target="_blank" rel="noopener noreferrer">
