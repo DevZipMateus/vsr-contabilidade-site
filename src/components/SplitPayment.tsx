@@ -91,14 +91,14 @@ const SplitPayment = () => {
               </div>
 
               <div className="text-center space-y-4">
-                <a href="/apresentacao_split_payment.zip" download>
+                <a href="/Guia_Reforma_Tributaria_VSR_Contabilidade.pptx" download>
                   <Button size="lg" className="bg-accent hover:bg-accent/90 text-lg px-8 py-6 gap-3">
                     <Download className="h-5 w-5" />
-                    Baixar Apresentação Completa
+                    Baixar Guia Completo
                   </Button>
                 </a>
                 <p className="text-sm text-muted-foreground">
-                  Conheça todos os detalhes da solução Split Payment
+                  Guia completo sobre Reforma Tributária e Split Payment
                 </p>
                 <div className="pt-4">
                   <a href="https://wa.me/5538991187421" target="_blank" rel="noopener noreferrer">
