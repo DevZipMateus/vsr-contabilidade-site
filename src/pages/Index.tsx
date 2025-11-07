@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import EgestorERP from "@/components/EgestorERP";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import SplitPayment from "@/components/SplitPayment";
 import Plans from "@/components/Plans";
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
@@ -18,6 +19,7 @@ const Index = () => {
         <EgestorERP />
         <About />
         <Services />
+        <SplitPayment />
         <Plans />
         <Team />
         <Contact />
